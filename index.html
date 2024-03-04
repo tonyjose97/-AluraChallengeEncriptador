@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+   <body>
+
+
+    <main>
+        
+        <section class="seccion1">
+            
+                <img src="imagenes/Frame 6.png" alt="logo" class="logo">
+            
+            <div class="contenedor-texto">
+                <textarea class="input-texto" placeholder="Ingrese el texto aqui" ></textarea>
+                
+            </div>
+            <div class="alerta">
+                <img src="imagenes/bi_exclamation-circle-fill.png" class="img-alerta" alt="logo-alerta" >
+                <p class="parrafo-alerta">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" id="btn-encriptar" value="Encriptar" class="btns" >
+                <input type="button" id="btn-desencriptar" value="Desencriptar" class="btns">            
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="munieco">
+                <img src="imagenes/Muñeco.png" alt="imagen Muñeco" class= "munieco">  
+            </div>
+            <div class="contenedor-parrafo">
+                <h3 class="borrar">Ningun mensaje fue<br> encontrado</h3>
+                <p class="borrar2"> Ingresa el texto que desees encriptar o<br>desencriptar.</p>
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado" placeholder="aqui debe aparecer mensaje encriptado"></p>
+                <input id="btn-copiar" type="button" value="copiar" class="btns">
+            </div>
+        </section>
+    </main> 
+    <script src="app.js"></script>
+  </body>
+</html>
